@@ -1,4 +1,4 @@
-﻿/// <reference path="..\sample\script\jquery-1.4.2.js" />
+/// <reference path="..\sample\script\jquery-1.4.2.js" />
 
 (function ($) {
     /// <param name="$" type="jQuery" />
@@ -27,7 +27,7 @@
                         $el.parents("form").addClass(config.className);
                 }
                 if (config.onDirtyChangeCallback)
-                    config.onDirtyChangeCallback.apply(el)
+                    config.onDirtyChangeCallback.apply(el);
             };
 
         if (settings) $.extend(config, settings);

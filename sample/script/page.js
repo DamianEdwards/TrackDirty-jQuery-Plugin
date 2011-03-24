@@ -1,4 +1,4 @@
-﻿/// <reference path="jquery-1.4.2.js" />
+/// <reference path="jquery-1.4.2.js" />
 /// <reference path="..\..\src\jquery.TrackDirty.js" />
 /// <reference path="jquery.easing.1.2.js" />
 
@@ -11,7 +11,7 @@ $(function () {
         e.preventDefault();
         var el = $(this);
         el.next().toggle("fast", function () {
-            el.text(el.text() == "show example" ? "hide example" : "show example")
+            el.text(el.text() == "show example" ? "hide example" : "show example");
         });
         return false;
     });
